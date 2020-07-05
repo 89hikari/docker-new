@@ -18,4 +18,3 @@ RUN bundle exec jekyll build
 FROM nginx:stable-alpine as publish
 COPY --from=jekyll-build /build/app/_site /usr/share/nginx/html
 EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
