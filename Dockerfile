@@ -1,4 +1,4 @@
-FROM ruby:2.7-alpine as jekyll-base
+FROM ruby:2.6.5-alpine as jekyll-base
 RUN mkdir /app
 WORKDIR /app
 VOLUME /app
