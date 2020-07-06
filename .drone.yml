@@ -13,4 +13,5 @@ steps:
   image: node
   commands:
   - npm install
+  - ls
 
