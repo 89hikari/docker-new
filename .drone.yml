@@ -14,3 +14,4 @@ steps:
   commands:
   - npm install
   - npm run test
+  - echo "hello"
